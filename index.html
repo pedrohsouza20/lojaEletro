@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="author" content"Pedro Souza" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,400;0,600;1,100;1,300;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"  href="CSS/style.css" />
+  <title>loja | By Pedro Souza</title>
+</head>
+<body>
+  <!-- <div class="infos">
+    <ul>
+      <li><a href="tel:+55999999999">(XX)99999-9999</a></li>
+      <li><a href="mailto:teste@gmail.com">enderecoemail@email.com</a></li>
+    </ul>
+  </div> -->
+  <header class="header-menu">
+    
+    	
+
+    <nav class="menu">
+      
+      <ul>
+        <li><a class="ativar-submenu" href="#populares" >Populares</a></li>
+          
+          <ul class="submenu">
+            <li><a href="">Celulares & telefonia</a></li>
+            <li><a href="">Computadores & acessórios</a></li>
+            <li><a href="">Bolsas & itens</a></li>
+            <li><a href="">Outros departamentos</a></li>
+            <div class="submenumante">
+            </div>
+          </ul>
+        <li><a href="#lancamentos">Lançamentos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <header class="header-menu-mobile">
+    <div class="menu-mobile-icones">
+      <img class ="abrir-mobile" src="assets/img/icone-mobile.png" alt="">
+      <img class ="fechar-mobile" src="assets/img/icone-fechar-mobile.png" alt="">
+    </div>
+    
+    <nav class="menu-mobile">
+      <ul>
+        <li><a href="#populares">Populares</a></li>
+        <li><a href="#lancamentos">Lançamentos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <div class="clique-fora">     
+      </div>
+    </nav>
+  </header>
+  <div class="responsividade"></div>
+  <div class="whatsapp">
+    <a href="https://api.whatsapp.com/send?phone=+5538984320721&text=Olá, gostaria de saber mais sobre um produto!"><img src="assets/img/logo-wpp.png" alt=""></a>
+  </div>
+  <script src="script.js"></script>
+  <main>
+    <div class="caixa-container">
+      <div class="caixa-pesquisa">
+        <input type="search" placeholder="Digite aqui o que procura...">
+        <img src="assets/img/lupa.png" />
+      </div>
+    </div>
+    <section class="aviso" style="display: flex; justify-content: center; flex-wrap: wrap; flex-direction: column; max-width: 960px; margin: 0 auto; text-align: center; padding:0 10px;">
+      <h1 style="color: red;">AVISO</h1>
+      <p style="max-width:500px; margin:0 auto; color:red">Este site foi desenvolvido com propósito de estudo. Os pagamentos funcionam perfeitamente, porém, não se trata de uma loja "verdadeira", não realize nenhum pagamento aqui.</p>
+      <p style="color:orange; max-width:500px; margin:30px auto 0 auto">Projeto designado e desenvolvido inteiramente por Pedro Souza; <br> não possuo direitos autorais sobre as imagens aqui presentes</p>
+    </section>
+    <div class="banner-background">
+      <section class="banner">
+        <img src="assets/img/banner.jpg" alt="">
+      </section>
+    </div>
+    <section class="ultimos-produtos" id="lancamentos">
+      <div class="ultimos-produtos-container">
+        <h2>Confira nossos últimos produtos</h2>
+        <div class="ultimos-produtos-imagens">
+          <div class="produto">
+            <img src="assets/img/notebook.png" alt="">
+            <div class="descricao-produto">
+              <h1>Notebook MSI</h1>
+              <h3 class="preco"><sub>R$</sub> 2.699,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus.                
+              </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbv-xqNH/button" target="_blank" title="Pagar com PagSeguro"">Comprar</a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/ps4.png" alt="">
+            <div class="descricao-produto">
+              <h1>Play Station 4</h1>
+              <h3 class="preco"><sub>R$</sub> 2.299,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw1hnsH/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/iphone12.png" alt="">
+            <div class="descricao-produto">
+              <h1>iPhone 12 Pro Max</h1>
+              <h3 class="preco"><sub>R$</sub> 4.999,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw2CDVo/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="populares ultimos-produtos" id="populares">
+      <div class="populares ultimos-produtos-container">
+        <h2>Produtos mais populares esse ano</h2>
+        <div class="populares ultimos-produtos-imagens">
+          <div class="produto">
+            <img src="assets/img/pc-gamer.png" alt="">
+            <div class="descricao-produto">
+              <h1>PC Gamer</h1>
+              <h3 class="preco"><sub>R$</sub> 6.979,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus.                
+              </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw48eM3/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/tv.png" alt="">
+            <div class="descricao-produto">
+              <h1>Smart TV 4K</h1>
+              <h3 class="preco"><sub>R$</sub> 2.879,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw4W9w5/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/gabinete-gamer.png" alt="">
+            <div class="descricao-produto">
+              <h1>Gabinete Gamer</h1>
+              <h3 class="preco"><sub>R$</sub> 349,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw5Hfpo/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="populares ultimos-produtos-container colocar-margem">
+        <div class="populares ultimos-produtos-imagens">
+          <div class="produto">
+            <img src="assets/img/mouse.png" alt="">
+            <div class="descricao-produto">
+              <h1>Mouse Gamer</h1>
+              <h3 class="preco"><sub>R$</sub> 219,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus.                
+              </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw6HNg9/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/headset.png" alt="">
+            <div class="descricao-produto">
+              <h1>Headset Gamer</h1>
+              <h3 class="preco"><sub>R$</sub> 589,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbw9nrxJ/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+          <div class="produto">
+            <img src="assets/img/teclado.png" alt="">
+            <div class="descricao-produto">
+              <h1>Teclado Gamer</h1>
+              <h3 class="preco"><sub>R$</sub> 249,90</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia blanditiis sed quis excepturi ea sunt possimus. </p>
+            </div>
+            <div class="botao">
+              <button><a href="https://pag.ae/7Xbwazjpu/button" target="_blank" title="Pagar com PagSeguro">Comprar</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <section class="sobre" id="sobre">
+    <section class="sobre-container">
+      <h2>Sobre nós</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aspernatur placeat nam alias deserunt cupiditate illum iste quia animi rem praesentium magnam, ratione quis.</p>
+    </section>
+    <section class="mapa">
+      <div class="mapa-container">
+        <h2>Enviamos para todo o país, mas será uma honra podermos atendê-lo pessoalmente</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3820.976469581899!2d-43.8721606855373!3d-16.728025851064288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab5357798dfedb%3A0x290264d964a14701!2sR.%20Raio%20Cristoff%2C%20215%20-%20Centro%2C%20Montes%20Claros%20-%20MG%2C%2039400-097%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1622179632947!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+    <section class="contato" id="contato">
+      <h2>Contato</h2>
+      <ul class="lista-contato">
+        <li><p>(XX) XXXXX-XXXX</p></li>
+        <li><p>enderecoemail@email.com</p></li>
+        <li><p>@usuarioempresarial</p></li>
+      </ul>
+    </section>
+  </section>
+  <section class="newsletter">
+    <div class="newsletter-container">
+      <h2>Assine a nossa Newsletter e fique por dentro de todas as novidades</h2>
+      <form>
+        <input type="text" placeholder="qual o seu nome?">
+        <input type="email" placeholder="seu melhor e-mail aqui...">
+        <input type="submit" value="Assinar">
+      </form>
+    </div>
+  </section>
+  <section class="frase">
+    <div class="frase-container">
+      <p>"Todas as coisas grandes são simples, e muitas delas podem ser expressadas em palavras únicas: liberdade, justiça, honra, dever, piedade, esperança"</p>
+      <h2 class="frase-autor">Winston Churchill</h2>
+    </div>
+  </section>
+  <footer class="rodape">
+    <div class="rodape-container">
+      <p>Todos os Direitos Reservados</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
